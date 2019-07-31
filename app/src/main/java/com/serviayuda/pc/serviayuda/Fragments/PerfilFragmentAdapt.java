@@ -29,6 +29,7 @@ import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.FirebaseStorage;
 import com.serviayuda.pc.serviayuda.Actividades.Ajustes;
 import com.serviayuda.pc.serviayuda.Actividades.Editar;
+import com.serviayuda.pc.serviayuda.Actividades.SettingsActivity;
 import com.serviayuda.pc.serviayuda.Activitys.RecibeSolicitudEnCursoActivity;
 import com.serviayuda.pc.serviayuda.BBDD.DatabaseHelper;
 import com.serviayuda.pc.serviayuda.Objetos.Imagen;
@@ -151,7 +152,7 @@ public class PerfilFragmentAdapt extends Fragment{
         botonAjustes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(view.getContext(), Ajustes.class);
+                Intent i = new Intent(view.getContext(), SettingsActivity.class);
                 startActivity(i);
             }
         });

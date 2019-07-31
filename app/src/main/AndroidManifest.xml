@@ -34,7 +34,7 @@
             android:screenOrientation="portrait"/>
         <activity android:name=".Actividades.MenuInterfazAdaptada"
             android:screenOrientation="portrait"/>
-        <activity android:name=".Actividades.Ajustes"
+        <activity android:name=".Actividades.SettingsActivity"
             android:screenOrientation="portrait"/>
         <activity android:name=".Actividades.Editar"
             android:screenOrientation="portrait"/>
